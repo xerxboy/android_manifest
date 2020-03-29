@@ -129,7 +129,7 @@
   <project path="vendor/du" name="android_vendor_du" remote="p9x-caf" >
     <linkfile src="scripts/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="du" revision="p9x" />
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="du" revision="p9x-caf" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="du" revision="p9x-caf" />
