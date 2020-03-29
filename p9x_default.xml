@@ -123,7 +123,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="du" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" remote="p9x-caf" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" groups="pdk" remote="p9x-caf" revision="p9x" clone-depth="1" />
 
   <!-- Vendor -->
   <project path="vendor/du" name="android_vendor_du" remote="p9x-caf" >
