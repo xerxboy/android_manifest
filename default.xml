@@ -15,13 +15,6 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-16.0" />
 
-   <remote  name="p9x-stuff"
-           fetch="https://github.com/xerxboy"
-           revision="refs/heads/p9x" />
- 
-   <remote  name="p9x-stuff-caf"
-           fetch="https://github.com/xerxboy"
-           revision="refs/heads/p9x-caf" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -660,7 +653,6 @@
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
-  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nfc" name="LineageOS/android_system_nfc" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
@@ -670,7 +662,6 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="test/vti/alert" name="platform/test/vti/alert" groups="vts,pdk" />
