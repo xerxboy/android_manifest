@@ -47,7 +47,7 @@
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="du" revision="p9x-caf" />
 
   <!-- External -->
-  <project path="external/bson" name="android_external_bson" remote="du" revision="p9x-caf" />
+  <project path="external/bson" name="android_external_bson" remote="p9x-caf" revision="lineage-16.0" />
   <project path="external/clang" name="android_external_clang" remote="du" />
   <project path="external/connectivity" name="android_external_connectivity" remote="du" revision="p9x-caf" />
   <project path="external/DUI" name="android_external_DUI" remote="du" revision="p9x" />
