@@ -22,7 +22,7 @@
   <!-- DU REPOS -->
   <remote  name="p9x-caf"
            revision="p9x"
-           fetch="https://github.com/DirtyUnicorns/" />
+           fetch="https://github.com/xerxboy/" />
 
   <!-- General -->
   <project path="bionic" name="android_bionic" remote="du" />
