@@ -220,7 +220,6 @@
   <project path="external/libese" name="platform/external/libese" groups="pdk" />
   <project path="external/libevent" name="platform/external/libevent" groups="pdk" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk" />
-  <project path="external/libffi" name="platform/external/libffi" groups="pdk" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" />
   <project path="external/libhevc" name="LineageOS/android_external_libhevc" remote="los" />
   <project path="external/libjpeg-turbo" name="LineageOS/android_external_libjpeg-turbo" remote="los"  />
