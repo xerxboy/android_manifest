@@ -115,6 +115,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="p9x-caf" revision="p9x-caf" />
+  <project path="system/nfc" name="android_system_nfc" remote="p9x-caf" revision="lineage-16.0" />
   <project path="system/core" name="android_system_core" remote="p9x-caf" revision="p9x-caf" />
   <project path="system/extras" name="android_system_extras" remote="du" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="p9x-caf" />
